@@ -1,0 +1,6 @@
+name: "cryotite"
+displayName: "Cryotite" //what displays in the mod selection menu
+author: "genNAowl"
+description: "Adds cryotite, the counterpart of pyratite"
+version: "1.0"
+minGameVersion: "105"

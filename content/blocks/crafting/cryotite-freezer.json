@@ -1,0 +1,28 @@
+{
+	"name": "Cryotite Freezer",
+	"type": "GenericSmelter",
+	"description": "A freezer that produces cryotite. ",
+	"health": -1, //automatically calculated
+	"size": 2,
+	"hasItems": true,
+	"hasPower": true,
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "titanium", "amount": 25 },
+	],
+	"outputItem": { "item": "cryotite", "amount": 1 },
+	"category": "crafting",
+	"flameColor": "00000000",
+	"consumes": {
+		"power": 0.2,
+		"items": {
+			"items": [
+				{ "item": "lead", "amount": 2 },
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.05,
+		}
+	},
+}

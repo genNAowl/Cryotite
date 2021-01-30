@@ -1,0 +1,18 @@
+"ammoTypes": {
+	"graphite": "standardDenseBig",
+	"pyratite": "standardIncendiaryBig",
+	"thorium": "standardThoriumBig",
+	"cryotite": {
+		"type": "BasicBulletType",
+		"speed": 7,
+		"damage": 60,
+		"width": 16,
+		"height": 21,
+		"frontColor": "87ceeb",
+		"backColor": "c0ecff",
+		"status": "freezing",
+		"pierceCap": 2,
+		"pierceBuilding": true,
+		"knockback": 0.7,
+	},
+},
