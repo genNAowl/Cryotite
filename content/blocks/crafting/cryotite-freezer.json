@@ -10,6 +10,7 @@
 		{ "item": "lead", "amount": 50 },
 		{ "item": "titanium", "amount": 25 },
 	],
+	"research": "pyratite-mixer",
 	"outputItem": { "item": "cryotite", "amount": 1 },
 	"category": "crafting",
 	"flameColor": "00000000",
